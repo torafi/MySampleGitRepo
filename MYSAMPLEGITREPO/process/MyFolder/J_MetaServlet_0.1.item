@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="TAC_AUTH_USER" prompt="TAC_AUTH_USER?" promptNeeded="false" type="id_String" value="&quot;rafi@company.com&quot;"/>
+    <contextParameter comment="" name="TAC_AUTH_PASSWORD" prompt="TAC_AUTH_PASSWORD?" promptNeeded="false" type="id_String" value="&quot;Dear@786&quot;"/>
+    <contextParameter comment="" name="TAC_TASK_ID" prompt="TAC_TASK_ID?" promptNeeded="true" type="id_Integer" value="1"/>
+    <contextParameter comment="" name="TAC_URL" prompt="TAC_URL?" promptNeeded="false" type="id_String" value="&quot;http://localhost:2017/org.talend.administrator-6.4.1/metaServlet?&quot;"/>
+    <contextParameter comment="" name="job_initiated" prompt="job_initiated?" promptNeeded="false" type="id_String" value="&quot;Talend REST API&quot;"/>
+  </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="384" show="false"/>
@@ -127,19 +133,9 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="mode"/>
       <elementValue elementRef="VALUE" value="&quot;asynchronous&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="initiated_by"/>
-      <elementValue elementRef="VALUE" value="context.FILE_SOURCE"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="business_unit"/>
-      <elementValue elementRef="VALUE" value="context.NSR_BUSINESS_UNIT"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="nsr_app_username"/>
-      <elementValue elementRef="VALUE" value="context.NSR_CUST_APP_UI_USERNAME"/>
+      <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="taskId"/>
       <elementValue elementRef="VALUE" value="context.TAC_TASK_ID"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DDI_FILE_SET_ID"/>
-      <elementValue elementRef="VALUE" value="context.FILE_SET_ID"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="JOB_SUCCESS_EMAIL_TO_ADDRESS"/>
-      <elementValue elementRef="VALUE" value="context.SUPPORT_MAIL_TO_ADDRESS"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PRNT_SUBMSN_ID"/>
-      <elementValue elementRef="VALUE" value="context.PRNT_SUBMSN_ID"/>
     </elementParameter>
     <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
     <elementParameter field="TABLE" name="INTABLE" show="false"/>
@@ -154,12 +150,7 @@
       <column comment="" key="false" length="-1" name="action" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="mode" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="initiated_by" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="business_unit" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="nsr_app_username" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="taskId" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="DDI_FILE_SET_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="JOB_SUCCESS_EMAIL_TO_ADDRESS" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="PRNT_SUBMSN_ID" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tWriteJSONField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="352" posY="-320">
@@ -201,31 +192,6 @@
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="8"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/nsr_business_unit"/>
-      <elementValue elementRef="COLUMN" value="business_unit"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="9"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/nsr_cust_app_ui_username"/>
-      <elementValue elementRef="COLUMN" value="nsr_app_username"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="10"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/DDI_FILE_SET_ID"/>
-      <elementValue elementRef="COLUMN" value="DDI_FILE_SET_ID"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="11"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/JOB_SUCCESS_EMAIL_TO_ADDRESS"/>
-      <elementValue elementRef="COLUMN" value="JOB_SUCCESS_EMAIL_TO_ADDRESS"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="12"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/PRNT_SUBMSN_ID"/>
-      <elementValue elementRef="COLUMN" value="PRNT_SUBMSN_ID"/>
-      <elementValue elementRef="VALUE" value=""/>
-      <elementValue elementRef="ATTRIBUTE" value="branch"/>
-      <elementValue elementRef="ORDER" value="13"/>
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
@@ -382,7 +348,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_gTTt4MbHEeagO6tTFzLA6w-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_R_aucL5BEeeVh_p5B7-Ipw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
@@ -405,7 +371,7 @@
       <column comment="" key="false" length="-1" name="executionTime_seconds" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="success" expressionFilter="row10_0.returnCode==0 &amp;&amp; row10_0.statusCode==200" activateExpressionFilter="true">
         <mapperTableEntries name="execRequestId" expression="row10_0.execRequestId " type="id_String" nullable="true"/>

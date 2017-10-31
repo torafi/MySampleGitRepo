@@ -371,7 +371,7 @@
       <column comment="" key="false" length="-1" name="executionTime_seconds" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="success" expressionFilter="row10_0.returnCode==0 &amp;&amp; row10_0.statusCode==200" activateExpressionFilter="true">
         <mapperTableEntries name="execRequestId" expression="row10_0.execRequestId " type="id_String" nullable="true"/>

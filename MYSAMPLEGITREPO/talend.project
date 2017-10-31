@@ -7,6 +7,541 @@
     <documentationStatus xmi:id="_jPuOEL5AEeeVh_p5B7-Ipw" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_jPuOEb5AEeeVh_p5B7-Ipw" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_jPuOEr5AEeeVh_p5B7-Ipw" label="validated" code="VAL"/>
+    <statAndLogsSettings xmi:id="__5VS0L5AEeeVh_p5B7-Ipw">
+      <parameters xmi:id="__5VS0b5AEeeVh_p5B7-Ipw">
+        <elementParameter xmi:id="__5tGQL5AEeeVh_p5B7-Ipw" field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGQb5AEeeVh_p5B7-Ipw" field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true" contextMode="false"/>
+        <elementParameter xmi:id="__5tGQr5AEeeVh_p5B7-Ipw" field="CHECK" name="ON_STATCATCHER_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGQ75AEeeVh_p5B7-Ipw" field="CHECK" name="ON_LOGCATCHER_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGRL5AEeeVh_p5B7-Ipw" field="CHECK" name="ON_METERCATCHER_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGRb5AEeeVh_p5B7-Ipw" field="CHECK" name="ON_CONSOLE_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGRr5AEeeVh_p5B7-Ipw" field="CHECK" name="ON_FILES_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGR75AEeeVh_p5B7-Ipw" field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/rshaik4/workspace/.metadata&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGSL5AEeeVh_p5B7-Ipw" field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGSb5AEeeVh_p5B7-Ipw" field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGSr5AEeeVh_p5B7-Ipw" field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGS75AEeeVh_p5B7-Ipw" field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" contextMode="false"/>
+        <elementParameter xmi:id="__5tGTL5AEeeVh_p5B7-Ipw" field="CHECK" name="ON_DATABASE_FLAG" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5tGTb5AEeeVh_p5B7-Ipw" field="PROPERTY_TYPE" name="PROPERTY_TYPE" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5tGTr5AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" contextMode="false"/>
+        <elementParameter xmi:id="__5tGT75AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" contextMode="false"/>
+        <elementParameter xmi:id="__5tGUL5AEeeVh_p5B7-Ipw" field="TEXT" name="URL" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGUb5AEeeVh_p5B7-Ipw" field="TABLE" name="DRIVER_JAR" contextMode="false"/>
+        <elementParameter xmi:id="__5tGUr5AEeeVh_p5B7-Ipw" field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGU75AEeeVh_p5B7-Ipw" field="TEXT" name="HOST" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGVL5AEeeVh_p5B7-Ipw" field="TEXT" name="PORT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGVb5AEeeVh_p5B7-Ipw" field="TEXT" name="DBNAME" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGVr5AEeeVh_p5B7-Ipw" field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGV75AEeeVh_p5B7-Ipw" field="TEXT" name="PROPERTIES" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGWL5AEeeVh_p5B7-Ipw" field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5tGWb5AEeeVh_p5B7-Ipw" field="TEXT" name="USER" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5ttUL5AEeeVh_p5B7-Ipw" field="PASSWORD" name="PASS" value="0RMsyjmybrE=" contextMode="false"/>
+        <elementParameter xmi:id="__5ttUb5AEeeVh_p5B7-Ipw" field="FILE" name="DBFILE" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5ttUr5AEeeVh_p5B7-Ipw" field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5ttU75AEeeVh_p5B7-Ipw" field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5ttVL5AEeeVh_p5B7-Ipw" field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5ttVb5AEeeVh_p5B7-Ipw" field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" contextMode="false"/>
+        <elementParameter xmi:id="__5ttVr5AEeeVh_p5B7-Ipw" field="CHECK" name="CATCH_USER_ERRORS" value="true" contextMode="false"/>
+        <elementParameter xmi:id="__5ttV75AEeeVh_p5B7-Ipw" field="CHECK" name="CATCH_USER_WARNING" value="true" contextMode="false"/>
+        <elementParameter xmi:id="__5ttWL5AEeeVh_p5B7-Ipw" field="CHECK" name="CATCH_REALTIME_STATS" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5ttWb5AEeeVh_p5B7-Ipw" field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" contextMode="false"/>
+        <elementParameter xmi:id="__5ttWr5AEeeVh_p5B7-Ipw" field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN" contextMode="false"/>
+        <elementParameter xmi:id="__5ttW75AEeeVh_p5B7-Ipw" field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
+      </parameters>
+    </statAndLogsSettings>
+    <implicitContextSettings xmi:id="__5uUYL5AEeeVh_p5B7-Ipw">
+      <parameters xmi:id="__5uUYb5AEeeVh_p5B7-Ipw">
+        <elementParameter xmi:id="__5uUYr5AEeeVh_p5B7-Ipw" field="CHECK" name="UPDATE_COMPONENTS" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUY75AEeeVh_p5B7-Ipw" field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUZL5AEeeVh_p5B7-Ipw" field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true" contextMode="false"/>
+        <elementParameter xmi:id="__5uUZb5AEeeVh_p5B7-Ipw" field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUZr5AEeeVh_p5B7-Ipw" field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUZ75AEeeVh_p5B7-Ipw" field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUaL5AEeeVh_p5B7-Ipw" field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUab5AEeeVh_p5B7-Ipw" field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUar5AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUa75AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUbL5AEeeVh_p5B7-Ipw" field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUbb5AEeeVh_p5B7-Ipw" field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" contextMode="false"/>
+        <elementParameter xmi:id="__5uUbr5AEeeVh_p5B7-Ipw" field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUb75AEeeVh_p5B7-Ipw" field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUcL5AEeeVh_p5B7-Ipw" field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUcb5AEeeVh_p5B7-Ipw" field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUcr5AEeeVh_p5B7-Ipw" field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUc75AEeeVh_p5B7-Ipw" field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUdL5AEeeVh_p5B7-Ipw" field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUdb5AEeeVh_p5B7-Ipw" field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUdr5AEeeVh_p5B7-Ipw" field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE=" contextMode="false"/>
+        <elementParameter xmi:id="__5uUd75AEeeVh_p5B7-Ipw" field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUeL5AEeeVh_p5B7-Ipw" field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUeb5AEeeVh_p5B7-Ipw" field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" contextMode="false"/>
+        <elementParameter xmi:id="__5uUer5AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUe75AEeeVh_p5B7-Ipw" field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUfL5AEeeVh_p5B7-Ipw" field="CHECK" name="PRINT_OPERATIONS" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUfb5AEeeVh_p5B7-Ipw" field="CHECK" name="DISABLE_ERROR" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUfr5AEeeVh_p5B7-Ipw" field="CHECK" name="DISABLE_WARNINGS" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUf75AEeeVh_p5B7-Ipw" field="CHECK" name="DISABLE_INFO" value="false" contextMode="false"/>
+        <elementParameter xmi:id="__5uUgL5AEeeVh_p5B7-Ipw" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value="" contextMode="false"/>
+        <elementParameter xmi:id="__5uUgb5AEeeVh_p5B7-Ipw" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
+      </parameters>
+    </implicitContextSettings>
+    <ItemsRelations xmi:id="_AD7ZQL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD7ZQb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.5" type="job"/>
+      <relatedItems xmi:id="_AD7ZQr5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZQ75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZRL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZRb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZRr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZR75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZSL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZSb5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZSr5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZS75BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZTL5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZTb5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZTr5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZT75BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZUL5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZUb5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZUr5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZU75BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZVL5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZVb5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZVr5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZV75BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZWL5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZWb5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZWr5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZW75BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZXL5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZXb5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZXr5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZX75BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZYL5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZYb5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZYr5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZY75BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZZL5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZZb5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZZr5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZZ75BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZaL5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zab5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zar5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Za75BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZbL5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zbb5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zbr5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zb75BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZcL5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zcb5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zcr5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zc75BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZdL5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zdb5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zdr5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zd75BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD7ZeL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD7Zeb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.6" type="job"/>
+      <relatedItems xmi:id="_AD7Zer5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7Ze75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZfL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7Zfb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7Zfr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7Zf75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7ZgL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD7Zgb5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zgr5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zg75BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZhL5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zhb5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zhr5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zh75BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZiL5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zib5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zir5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zi75BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZjL5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zjb5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zjr5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zj75BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZkL5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zkb5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zkr5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zk75BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZlL5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zlb5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zlr5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zl75BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZmL5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zmb5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zmr5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zm75BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZnL5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Znb5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Znr5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zn75BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZoL5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zob5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zor5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zo75BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZpL5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zpb5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zpr5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zp75BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZqL5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zqb5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zqr5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zq75BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7ZrL5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zrb5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zrr5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD7Zr75BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8AUL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8AUb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.7" type="job"/>
+      <relatedItems xmi:id="_AD8AUr5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AU75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AVL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AVb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AVr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AV75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AWL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AWb5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AWr5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AW75BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AXL5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AXb5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AXr5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AX75BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AYL5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AYb5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AYr5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AY75BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AZL5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AZb5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AZr5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AZ75BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AaL5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aab5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aar5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aa75BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AbL5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Abb5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Abr5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ab75BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AcL5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Acb5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Acr5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ac75BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AdL5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Adb5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Adr5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ad75BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AeL5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aeb5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aer5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ae75BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AfL5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Afb5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Afr5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Af75BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AgL5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Agb5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Agr5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ag75BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AhL5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ahb5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ahr5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ah75BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8AiL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8Aib5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.8" type="job"/>
+      <relatedItems xmi:id="_AD8Air5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Ai75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AjL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Ajb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Ajr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Aj75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AkL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Akb5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Akr5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ak75BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AlL5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Alb5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Alr5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Al75BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AmL5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Amb5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Amr5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Am75BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AnL5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Anb5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Anr5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8An75BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AoL5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aob5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aor5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ao75BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ApL5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Apb5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Apr5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ap75BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AqL5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aqb5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aqr5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aq75BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ArL5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Arb5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Arr5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ar75BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AsL5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Asb5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Asr5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8As75BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AtL5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Atb5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Atr5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8At75BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AuL5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aub5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Aur5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Au75BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AvL5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Avb5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Avr5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Av75BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8AwL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8Awb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="0.5" type="job"/>
+      <relatedItems xmi:id="_AD8Awr5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Aw75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AxL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Axb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Axr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Ax75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8AyL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8Ayb5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ayr5BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Ay75BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8AzL5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Azb5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Azr5BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8Az75BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A0L5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A0b5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A0r5BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A075BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A1L5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A1b5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A1r5BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A175BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A2L5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A2b5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A2r5BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A275BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A3L5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A3b5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A3r5BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A375BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A4L5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A4b5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A4r5BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A475BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A5L5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A5b5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A5r5BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A575BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A6L5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A6b5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A6r5BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A675BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A7L5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A7b5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A7r5BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A775BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A8L5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A8b5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A8r5BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A875BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A9L5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A9b5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8A9r5BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8A975BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8A-L5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.4" type="job"/>
+      <relatedItems xmi:id="_AD8A-b5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A-r5BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A-75BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A_L5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A_b5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A_r5BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8A_75BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8BAL5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BAb5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BAr5BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BA75BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BBL5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BBb5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BBr5BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BB75BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BCL5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BCb5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BCr5BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BC75BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BDL5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BDb5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BDr5BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BD75BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BEL5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BEb5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BEr5BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BE75BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BFL5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BFb5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BFr5BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BF75BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BGL5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BGb5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BGr5BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BG75BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BHL5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BHb5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BHr5BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BH75BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BIL5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BIb5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BIr5BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BI75BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BJL5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BJb5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BJr5BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BJ75BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BKL5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BKb5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BKr5BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BK75BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BLL5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BLb5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8BLr5BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8nYL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8nYb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.0" type="job"/>
+      <relatedItems xmi:id="_AD8nYr5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nY75BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nZL5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nZb5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nZr5BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nZ75BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8naL5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nab5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nar5BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8na75BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nbL5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nbb5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nbr5BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nb75BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ncL5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ncb5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ncr5BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nc75BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ndL5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ndb5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ndr5BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nd75BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8neL5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8neb5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ner5BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ne75BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nfL5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nfb5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nfr5BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nf75BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ngL5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ngb5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ngr5BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ng75BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nhL5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nhb5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nhr5BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nh75BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8niL5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nib5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nir5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ni75BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8njL5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8njb5BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8njr5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nj75BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nkL5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nkb5BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nkr5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nk75BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nlL5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nlb5BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nlr5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nl75BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
+    <ItemsRelations xmi:id="_AD8nmL5BEeeVh_p5B7-Ipw">
+      <baseItem xmi:id="_AD8nmb5BEeeVh_p5B7-Ipw" id="_gTTt4MbHEeagO6tTFzLA6w" version="1.9" type="job"/>
+      <relatedItems xmi:id="_AD8nmr5BEeeVh_p5B7-Ipw" id="_w1Ta4Ci0EeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nm75BEeeVh_p5B7-Ipw" id="_vhpXYHO9EeeTlIecEziMvg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nnL5BEeeVh_p5B7-Ipw" id="__r--sKyhEeavfYtyNfnMUA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nnb5BEeeVh_p5B7-Ipw" id="_pW4_YApAEeeHbclGjbBr0A" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nnr5BEeeVh_p5B7-Ipw" id="_WtsfQBUiEeaOHIQk0MOUzQ" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nn75BEeeVh_p5B7-Ipw" id="_TaozYMOHEeaM8-RGOLWwAw" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8noL5BEeeVh_p5B7-Ipw" id="_Vidq8AGJEeaksa_gLlw6Xg" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nob5BEeeVh_p5B7-Ipw" id="_svB-gCizEeS9VYUw6bnfEA" version="Latest" type="context"/>
+      <relatedItems xmi:id="_AD8nor5BEeeVh_p5B7-Ipw" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8no75BEeeVh_p5B7-Ipw" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8npL5BEeeVh_p5B7-Ipw" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8npb5BEeeVh_p5B7-Ipw" id="POC_DataFabrics" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8npr5BEeeVh_p5B7-Ipw" id="timeElapsed" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8np75BEeeVh_p5B7-Ipw" id="Products_parsingTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nqL5BEeeVh_p5B7-Ipw" id="cr_KO_Common" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nqb5BEeeVh_p5B7-Ipw" id="FileNameValidation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nqr5BEeeVh_p5B7-Ipw" id="HelloWorld" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nq75BEeeVh_p5B7-Ipw" id="Parse_names2Tstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nrL5BEeeVh_p5B7-Ipw" id="A1_parisstreetindexcreationTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nrb5BEeeVh_p5B7-Ipw" id="DQ_METHODS" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nrr5BEeeVh_p5B7-Ipw" id="Tweets_Generator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nr75BEeeVh_p5B7-Ipw" id="ConvertTime" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nsL5BEeeVh_p5B7-Ipw" id="KeyManagementForSqoop" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nsb5BEeeVh_p5B7-Ipw" id="MDM" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nsr5BEeeVh_p5B7-Ipw" id="GetRandomPhoneNum" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ns75BEeeVh_p5B7-Ipw" id="GcpBilling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ntL5BEeeVh_p5B7-Ipw" id="DataTypeUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ntb5BEeeVh_p5B7-Ipw" id="A2_standardizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ntr5BEeeVh_p5B7-Ipw" id="KORoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nt75BEeeVh_p5B7-Ipw" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nuL5BEeeVh_p5B7-Ipw" id="tic_word_titleCase" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nub5BEeeVh_p5B7-Ipw" id="ImporttweetsTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nur5BEeeVh_p5B7-Ipw" id="DemoRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nu75BEeeVh_p5B7-Ipw" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nvL5BEeeVh_p5B7-Ipw" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nvb5BEeeVh_p5B7-Ipw" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nvr5BEeeVh_p5B7-Ipw" id="koAuditLog" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nv75BEeeVh_p5B7-Ipw" id="A2_normalizeaddressTstandardizerow_1" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nwL5BEeeVh_p5B7-Ipw" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nwb5BEeeVh_p5B7-Ipw" id="IpaasFileUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nwr5BEeeVh_p5B7-Ipw" id="KOCommon" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nw75BEeeVh_p5B7-Ipw" id="SLValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nxL5BEeeVh_p5B7-Ipw" id="Console_to_log4j_logger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nxb5BEeeVh_p5B7-Ipw" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nxr5BEeeVh_p5B7-Ipw" id="Transformation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nx75BEeeVh_p5B7-Ipw" id="testRoutines" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nyL5BEeeVh_p5B7-Ipw" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nyb5BEeeVh_p5B7-Ipw" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nyr5BEeeVh_p5B7-Ipw" id="FilePatternValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8ny75BEeeVh_p5B7-Ipw" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nzL5BEeeVh_p5B7-Ipw" id="FileNameValdation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nzb5BEeeVh_p5B7-Ipw" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nzr5BEeeVh_p5B7-Ipw" id="ddiValidations" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8nz75BEeeVh_p5B7-Ipw" id="DataQualityDependencies" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8n0L5BEeeVh_p5B7-Ipw" id="SystemLogger" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_AD8n0b5BEeeVh_p5B7-Ipw" id="String_Split" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_jObNkL5AEeeVh_p5B7-Ipw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_jOb0oL5AEeeVh_p5B7-Ipw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_jOb0ob5AEeeVh_p5B7-Ipw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>

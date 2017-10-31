@@ -212,7 +212,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="-224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;&#xA;byte[] convertToBytes = input_row.JSON.getBytes(StandardCharsets.UTF_8);&#xA;String b64encoded = Base64.getEncoder().encodeToString(convertToBytes);&#xA;&#xA;output_row.string = b64encoded;&#xA;&#xA;// next log entry commented because it prints the TAC pa&#xA;// log.info(&quot;JSON string: &quot; + input_row.JSON);&#xA;log.info(&quot;Base64-encoded string: &quot; +output_row.string);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;&#xA;byte[] convertToBytes = input_row.JSON.getBytes(StandardCharsets.UTF_8);&#xA;String b64encoded = Base64.getEncoder().encodeToString(convertToBytes);&#xA;&#xA;output_row.string = b64encoded;&#xA;&#xA;// next log entry commented because it prints the TAC pa&#xA;// log.info(&quot;JSON string: &quot; + input_row.JSON);&#xA;log.info(&quot;Base64-encoded string: &quot; +output_row.string);&#xA;&#xA;System.out.println(&quot;Base64-encoded string: &quot; +output_row.string);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.util.Base64;&#xA;import java.nio.charset.StandardCharsets;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">

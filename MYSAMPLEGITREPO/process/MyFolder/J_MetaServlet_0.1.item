@@ -133,7 +133,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="mode"/>
       <elementValue elementRef="VALUE" value="&quot;asynchronous&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="initiated_by"/>
-      <elementValue elementRef="VALUE" value=""/>
+      <elementValue elementRef="VALUE" value="context.job_initiated"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="taskId"/>
       <elementValue elementRef="VALUE" value="context.TAC_TASK_ID"/>
     </elementParameter>

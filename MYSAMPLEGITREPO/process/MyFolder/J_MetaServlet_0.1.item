@@ -157,37 +157,37 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWriteJSONField_1" show="false"/>
     <elementParameter field="COLUMN_LIST" name="JSONFIELD" value="JSON"/>
     <elementParameter field="TABLE" name="ROOT" show="false">
-      <elementValue elementRef="PATH" value="/rootTag"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties"/>
       <elementValue elementRef="COLUMN" value=""/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>
       <elementValue elementRef="ORDER" value="1"/>
-      <elementValue elementRef="PATH" value="/rootTag/authPass"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/authPass"/>
       <elementValue elementRef="COLUMN" value="pass"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="3"/>
-      <elementValue elementRef="PATH" value="/rootTag/actionName"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/actionName"/>
       <elementValue elementRef="COLUMN" value="action"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="4"/>
-      <elementValue elementRef="PATH" value="/rootTag/mode"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/mode"/>
       <elementValue elementRef="COLUMN" value="mode"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="5"/>
-      <elementValue elementRef="PATH" value="/rootTag/taskId"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/taskId"/>
       <elementValue elementRef="COLUMN" value="taskId"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="6"/>
-      <elementValue elementRef="PATH" value="/rootTag/context"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/context"/>
       <elementValue elementRef="COLUMN" value=""/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
       <elementValue elementRef="ORDER" value="7"/>
-      <elementValue elementRef="PATH" value="/rootTag/context/job_initiated_by"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/context/job_initiated_by"/>
       <elementValue elementRef="COLUMN" value="initiated_by"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="branch"/>
@@ -195,7 +195,7 @@
     </elementParameter>
     <elementParameter field="TABLE" name="GROUP" show="false"/>
     <elementParameter field="TABLE" name="LOOP" show="false">
-      <elementValue elementRef="PATH" value="/rootTag/authUser"/>
+      <elementValue elementRef="PATH" value="/TAC_Properties/authUser"/>
       <elementValue elementRef="COLUMN" value="user"/>
       <elementValue elementRef="VALUE" value=""/>
       <elementValue elementRef="ATTRIBUTE" value="main"/>

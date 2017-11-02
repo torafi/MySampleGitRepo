@@ -123,15 +123,15 @@
     <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.bills.bill.line[*]&quot;" show="false"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="store_name"/>
-      <elementValue elementRef="QUERY" value="&quot;$store.name&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;$.store.name&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="store_address"/>
-      <elementValue elementRef="QUERY" value="&quot;$store.address&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;$.store.address&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="bicycle_type"/>
-      <elementValue elementRef="QUERY" value="&quot;$store.goods.bicycle.type&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;$.store.goods.bicycle.type&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="bicycle_color"/>
-      <elementValue elementRef="QUERY" value="&quot;$store.goods.bicycle.color&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;$.store.goods.bicycle.color&quot;"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="bicycle_price"/>
-      <elementValue elementRef="QUERY" value="&quot;$store.goods.bicycle.price&quot;"/>
+      <elementValue elementRef="QUERY" value="&quot;$.store.goods.bicycle.price&quot;"/>
     </elementParameter>
     <elementParameter field="TABLE" name="MAPPING_JSONPATH" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="store_name"/>
